@@ -1,14 +1,21 @@
-
-8-bit instructions?
+CPU OPCODES
 
 SLO 00 RR VVVV Set low bits of register R
 SHI 01 RR VVVV Set high bits of register R
-MOV 1000 DD RR Copy register R to D
-ADD 1001 DD RR Add register R to D
-OR  1010 DD RR Add register R to D
-AND 1011 DD RR Add register R to D
-NOT 1100 DD RR Add register R to D
-XOR 1101 DD RR Add register R to D
+
+SKP 1000 DD 01 Skip next instruction if D
+JMP 1000 DD 10 Jump to register D
+PRT 1000 DD 00 Print register R
+
+OR  1001 DD RR Add register R to D
+AND 1010 DD RR Add register R to D
+XOR 1011 DD RR Add register R to D
+ADD 1100 DD RR Add register R to D
+LSH 1101 DD RR Left shift register D by R
+RSH 1110 DD RR Right shift register D by R
+NOT 1111 DD RR Negate register D into R
+
 PRT 1111 XX RR Print register R
 
 NOP = MOV RR RR
+
