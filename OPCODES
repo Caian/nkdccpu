@@ -1,0 +1,10 @@
+
+8-bit instructions?
+
+SLO 00 RR VVVV Set low bits of register R
+SHI 01 RR VVVV Set high bits of register R
+MOV 1000 DD RR Copy register R to D
+ADD 1001 DD RR Add register R to D
+PRT 1111 RR XX Print register R
+
+NOP = MOV RR RR
