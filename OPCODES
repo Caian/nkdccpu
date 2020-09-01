@@ -3,7 +3,7 @@ CPU OPCODES
 SLO 00 RR VVVV Set low bits of register R
 SHI 01 RR VVVV Set high bits of register R
 
-SKP 1000 DD 01 Skip next instruction if D
+SKP 1000 DD 01 Skip next instruction if register D is not zero
 JMP 1000 DD 10 Jump to register D
 PRT 1000 DD 00 Print register R
 
