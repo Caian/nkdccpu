@@ -1,2 +1,2 @@
 # nkdccpu
-Simple 8-bit cpu design with attached ROM and TTY
+Simple logisim evolution project for an 8-bit cpu with attached ROM and TTY.
