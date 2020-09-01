@@ -1,4 +1,16 @@
-CPU OPCODES
+# Copyright (C) 2020 Caian Benedicto <caianbene@gmail.com>
+#
+# This software is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+#
+# This software is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+CPU OPCODES (8 bit instructions)
 
 SLO 00 RR VVVV Set low bits of register R
 SHI 01 RR VVVV Set high bits of register R
@@ -16,6 +28,3 @@ RSH 1110 DD RR Right shift register D by R
 NOT 1111 DD RR Negate register D into R
 
 PRT 1111 XX RR Print register R
-
-NOP = MOV RR RR
-
